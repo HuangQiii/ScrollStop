@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		height:1000px;
+		background-color:#ccc;
+	}
+	.box{
+		width:257px;
+		height: 100px;
+		overflow-y:scroll;
+		margin: 150px;
+	}
+</style>
+<body>
+	<div class="box" id="box">
+		<img src="pic.jpg" />
+	</div>
+	<div class="box">
+		<img src="pic.jpg" />
+	</div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="scrollstop.js"></script>
+<script type="text/javascript">
+	$('#box').scrollstop();
+</script>
+</html>
